@@ -7,7 +7,7 @@ spec:
     matchLabels:
       app: example-app
   serviceName: example-service
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
